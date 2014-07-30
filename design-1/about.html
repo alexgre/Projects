@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>- Design 1 -</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/semantic.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- FONTS  -->
+    <link href='http://fonts.googleapis.com/css?family=Finger+Paint' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    <!-- PNG FIX for IE6 -->
+    <!-- http://24ways.org/2007/supersleight-transparent-png-in-ie6 -->
+    <!--[if lte IE 6]>
+<script type="text/javascript" src="js/pngfix/supersleight-min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <!--============================================ MOBILE MENU =========================================================== -->
+    <div class="container visible-xs-block visible-sm-block" id="mobile-menu">
+        <div class="row">
+            <nav class="navbar navbar-default navbar-fixed-top mobile-bar" role="navigation">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header mobile-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobile">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">
+                            <center>
+                                <img src="img/logo.png" alt="logo-mobile" class="img-responsive" style="height:45px;">
+                            </center>
+                        </a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="mobile">
+                        <form class="navbar-form navbar-left" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Link</a>
+                            </li>
+                            <li><a href="#">Link</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">Action</a>
+                                    </li>
+                                    <li><a href="#">Another action</a>
+                                    </li>
+                                    <li><a href="#">Something else here</a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Separated link</a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">One more separated link</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Link</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">Action</a>
+                                    </li>
+                                    <li><a href="#">Another action</a>
+                                    </li>
+                                    <li><a href="#">Something else here</a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Separated link</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row visible-md-block visible-lg-block">
+            <!-- Panel -->
+            <div id="toppanel">
+                <div id="panel">
+                    <div class="content clearfix">
+                        <div class="left">
+                            <h1>Welcome to OUR SHOP</h1>
+                            <h2>Hope you enjoy your time here !</h2>
+                            <p class="grey">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem dolorem natus perspiciatis ratione iusto.</p>
+                            <img src="img/logo.png" alt="logo" class="img-responsive">
+                        </div>
+                        <div class="left">
+                            <!-- Login Form -->
+                            <form class="clearfix" action="#" method="post">
+                                <h1>Member Login</h1>
+                                <label class="grey" for="log">Username:</label>
+                                <input class="field" type="text" name="log" id="log" value="" size="23" />
+                                <label class="grey" for="pwd">Password:</label>
+                                <input class="field" type="password" name="pwd" id="pwd" size="23" />
+                                <label>
+                                    <input name="rememberme" id="rememberme" type="checkbox" checked="checked" value="forever" />&nbsp;Remember me</label>
+                                <div class="clear"></div>
+                                <input type="submit" name="submit" value="Login" class="bt_login" />
+                                <a class="lost-pwd" href="#">Lost your password?</a>
+                            </form>
+                        </div>
+                        <div class="left right">
+                            <!-- Register Form -->
+                            <form action="#" method="post">
+                                <h1>Not a member yet? Sign Up!</h1>
+                                <label class="grey" for="signup">Username:</label>
+                                <input class="field" type="text" name="signup" id="signup" value="" size="23" />
+                                <label class="grey" for="email">Email:</label>
+                                <input class="field" type="text" name="email" id="email" size="23" />
+                                <label>A password will be e-mailed to you.</label>
+                                <input type="submit" name="submit" value="Register" class="bt_register" />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- /login -->
+
+                <!-- The tab on top -->
+                <div class="tab">
+                    <ul class="login">
+                        <li class="left">&nbsp;</li>
+                        <li>Hello Guest!</li>
+                        <li class="sep">|</li>
+                        <li id="toggle">
+                            <a id="open" class="open" href="#">Log In | Register</a>
+                            <a id="close" style="display: none;" class="close" href="#">Close Panel</a> 
+                        </li>
+                        <li class="right">&nbsp;</li>
+                    </ul>
+                </div>
+                <!-- / top -->
+            </div>
+            <!--panel -->
+        </div>
+    </div>
+    <header id="header" class="menu">
+        <div class="container-fluid">
+            <div class="row" id="top-bar">
+                <div class="col-xs-6 col-md-4 col-lg-4 visible-md-block visible-lg-block">
+                    <div class="dropdown">
+                        <a data-toggle="dropdown" href="#" class="ui right labeled icon teal circular bottom attached button"><i class="right black arrow icon"></i> Links</a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                            <li>
+                                <a href="#" class="ui fluid button teal" type="button">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>Link1</a>
+                            </li>
+                            <div class="ui horizontal icon divider">
+                                <i class="circular user icon"></i>
+                            </div>
+                            <li>
+                                <a href="#" class="ui fluid button black" type="button">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>Link2</a>
+                            </li>
+                            <li>
+                                <a href="#" class="ui fluid button red" type="button">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>Link3</a>
+                            </li>
+                            <div class="ui horizontal icon divider"><i class="circular red search icon"></i>
+                            </div>
+                            <li>
+                                <form class="navbar-form">
+                                    <div class="ui icon input">
+                                        <input placeholder="Search..." type="text"><i class="inverted teal search icon"></i>
+                                    </div>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-4 col-lg-4 col-md-push-4 visible-md-block visible-lg-block">
+
+                    <form class="navbar-form text-right">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search...">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                            </span>
+                        </div>
+                    </form>
+                    <!-- <div class="btn-group"> <a href="#" class="btn navbar-btn" data-toggle="modal" data-target="#login" type="button">Login</a> 
+             
+            <a class="btn navbar-btn hidden-xs hidden-sm">|</a> <a href="#" class="btn navbar-btn" type="button">New account</a> 
+             
+          </div> -->
+
+                </div>
+                <div class="col-xs-12 col-md-4 col-lg-4 col-md-pull-4" style="text-align:right;">
+                    <!-- social links-->
+                    <center>
+                        <div class="btn-group">
+                            <a href="#" class="btn" type="button"><i class="circular inverted black facebook icon"></i> Facebook</a>
+                            <a href="#" class="btn" type="btton"><i class="circular inverted google red plus icon"></i> Google + </a>
+                            <a href="#" class="btn" type="button"><i class="circular inverted black twitter icon"></i> Twitter</a>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <div class="row visible-md-block visible-lg-block" id="logo-bar">
+                <div class="col-xs-6 col-md-6">
+                    <img src="img/logo2.png" alt="logo" class="img-responsive" id="logo-image">
+                </div>
+                <div class="col-xs-6 col-md-6">
+                    <a href="#" id="mini-cart" class="btn navbar-btn"> My cart
+        <!-- <div class="ui pointing left large label"> Happy shopping! </div>    -->
+        </a> 
+                    <!-- use jquery to show/hide cart content-->
+                </div>
+            </div>
+        </div>
+        <!-- =============================================MAIN MENU DESKTOP SIZE ============================= -->
+        <div class="container-fluid visible-md-block visible-lg-block" id="menu-bar">
+            <div class="row">
+                <div class="col-xs-12 col-md-12">
+                    <div id="menu">
+                        <nav class="navbar navbar-inverse desktop" role="navigation">
+                            <ul class="nav nav-justified navbar-nav">
+                                <li><a href="index.html" class="navbar-btn box1"><i class="teal home medium icon"></i> Homepage</a> 
+                                </li>
+                                <li><a href="about.html" class="navbar-btn box3" class="navbar-btn"><i class="users teal icon"></i> About us</a>
+                                </li>
+                                <li><a href="#" class="navbar-btn box5"><i class="teal trophy icon"></i> We love sports</a>
+                                </li>
+                                <li><a href="#" class="navbar-btn box7"><i class="circle blank teal icon"></i> Accesories</a> 
+                                </li>
+                                <li><a href="#" class="navbar-btn"><i class="wrench teal icon"></i> Services</a> 
+                                </li>
+                                <li><a href="#" class="navbar-btn"><i class="globe teal icon"></i> Contact Us</a> 
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ================================ DROPDOWNS =============================================== -->
+        <div class="box2" style="display:none;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item active">
+                                <span class="glyphicon glyphicon-minus"></span>Cras justo odio
+                            </a>
+                            <a href="#" class="list-group-item">
+                                <span class="glyphicon glyphicon-minus"></span>Dapibus ac facilisis in</a>
+                            <a href="#" class="list-group-item">
+                                <span class="glyphicon glyphicon-minus"></span>Morbi leo risus</a>
+                            <a href="#" class="list-group-item">
+                                <span class="glyphicon glyphicon-minus"></span>Porta ac consectetur ac</a>
+                            <a href="#" class="list-group-item">
+                                <span class="glyphicon glyphicon-minus"></span>Vestibulum at eros</a>
+                        </div>
+                        <p class="lead">Run faster with our products
+                            <br>
+                            <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, sunt dignissimos culpa numquam ipsam voluptates libero aut repellendus. Eum, officiis et perferendis temporibus sapiente minima tenetur repellat. Ex, tempora incidunt.</small>
+                        </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="img/race.jpg" alt="" class="img-thumbnail img-responsive">
+                        <br>
+                        <div class="btn-group btn-group-justified">
+                            <a href="#" class="btn btn-primary">Link</a>
+                            <a href="#" class="btn btn-primary">Link2</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box4" style="display:none;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="col-sm-6">
+                            <img src="img/prod4.jpg" alt="" class="img-responsive img-circle">
+                        </div>
+                        <div class="col-sm-6">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, dolorem perferendis consequuntur sapiente eaque alias maiores in ratione magni voluptates iusto quasi non earum adipisci voluptatum culpa impedit blanditiis dolore.</p>
+                            <a href="#" class="btn btn-default center-block"><i class="right angle black icon"></i> See me!</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-sm-offset-2">
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="btn btn-success center-block"><i class="globe black circle icon"></i> Check this out!</a>
+                            </li>
+                            <li>
+                                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, praesentium, facere provident velit laudantium laborum quas inventore eius qui modi recusandae ullam quis quae voluptatem nihil ipsum consectetur nulla deleniti!</p>
+                            </li>
+                            <li>
+                                <div class="ui small images">
+                                    <img src="img/prod3.jpg" alt="" class="ui image">
+                                    <img src="img/prod5.jpg" alt="" class="ui image">
+                                    <img src="img/prod2.jpg" alt="" class="ui image">
+                                    <img src="img/prod4.jpg" alt="" class="ui image">
+                                    <img src="img/prod7.jpg" alt="" class="ui image">
+
+                                </div>
+                            </li>
+                            <li>
+                                <p class="bg-info text-danger">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, ipsam dolore incidunt in sequi illo qui repellendus libero molestiae inventore. Delectus, earum, sit nostrum non reprehenderit molestias qui optio dolore.</p>
+                            </li>
+                            <li><a href="#" class="btn btn-warning center-block"><i class="smile teal icon"></i> button</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- div class="col-sm-3">
+          <div class="col-sm-6">
+            <img src="img/design1.jpg" alt="" class="img-responsive img-circle">
+          </div>
+          <div class="col-sm-6">
+          <p class="text-justify text-success bg-warning">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, reprehenderit, ipsam, dolores ducimus labore aperiam laborum earum cum id itaque corporis mollitia fugit tempora animi error atque sunt voluptate nam.</p>
+            <a href="#" class="ui button teal round"><i class="angle right red icon"> Follow me</i></a>
+          </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="box6" style="display:none;">
+            <div class="container">
+                <div class="jumbotron">
+                    <h2>Push your limits further, faster, stronger!We got the means to overachieve.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, optio, in necessitatibus tempore tempora consectetur autem quam fugit culpa mollitia nulla ea deserunt harum sunt nobis accusamus voluptatibus iste deleniti.</p>
+                </div>
+            </div>
+        </div>
+        <div class="box8" style="display:none;">
+            <div class="ui segment raised teal">
+                <div class="ui black ribbon label">This summer!</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, animi, quae doloribus dolorum qui doloremque quas cum mollitia libero vel assumenda maxime iusto veniam sit atque voluptatem exercitationem incidunt at.</p>
+
+                <p class="text-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, minima dolorum fugiat odit deserunt ducimus dolore neque ipsa temporibus explicabo deleniti pariatur cum alias atque aperiam autem rerum! Iste, dolore?</p>
+                <div class="ui divider horizontal"><i class="circle blank teal icon"></i>
+                </div>
+                <div class="ui black ribbon label">This summer!</div>
+                <p class="text-left bg-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, eligendi, consectetur, fugiat tempore aspernatur voluptatum corporis impedit laborum illum veritatis obcaecati voluptates non ad quasi vel optio inventore aliquid quae.</p>
+                <a href="#" class="btn btn-default pull-right center-block">Link to product page!</a>
+                <div class="clearfix"></div>
+                <div class="ui horizontal divider"><i class="circle blank teal icon"></i>
+                </div>
+                <div class="clearfix"></div>
+                <h3 class="text-center">Check this shit out!
+                    <small>We might surprise you!</small>
+                </h3>
+                <div class="ui horizontal divider"><i class="circle blank teal icon"></i>
+                </div>
+                <div class="ui black ribbon label">This summer!</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, aperiam molestiae modi itaque minima incidunt maxime eum illo voluptatem quo tenetur accusantium dolore ducimus repellendus maiores neque fugit cum! Nihil!</p>
+                <div class="btn-group">
+                    <a href="#" class="btn btn-default">Button1</a>
+                    <a href="#" class="btn btn-default">Button2</a>
+                    <a href="#" class="btn btn-default">Button3</a>
+                </div>
+            </div>
+            <div class="panel panel-warning">
+                <div class="panel-heading">
+                    <h4 class="panel-title">Service title</h4>
+                </div>
+                <div class="panel-body bg-success">
+                    <p class="text-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, iusto qui culpa unde obcaecati. Ipsam, itaque, excepturi, provident quis distinctio odit laboriosam deserunt a in facilis illo magnam pariatur sint.</p>
+                    <p class="text-info">Dicta, sequi, cumque, dolorum voluptates ducimus alias dolore aspernatur nesciunt ullam sapiente delectus veritatis enim sed. Beatae vero dolores perspiciatis ex accusantium! Dolorem, odit neque impedit esse omnis ad in!</p>
+                </div>
+                <div class="panel-footer bg-warning">
+                    <div class="btn btn-group">
+                        <a href="#" class="btn btn-default" role="button">
+                            <span class="glyphicon glyphicon-chevron-right"></span>Button1</a>
+                        <a href="#" class="btn btn-default" role="button">
+                            <span class="glyphicon glyphicon-chevron-right"></span>Button2</a>
+                        <a href="#" class="btn btn-default" role="button">
+                            <span class="glyphicon glyphicon-chevron-right"></span>Button3</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- box container -->
+        </div>
+    </header>
+    <div class="content">
+        <div class="container text">
+            <div class="row">
+                <img src="img/logo2.png" alt="" class="img-responsive"> 
+                <h1 class="mid">Our story ...</h1>
+                <div class="ui horizontal divider"><i class="circle teal blank icon"></i></div>
+            </div>
+            <div class="row">
+                <p class="lead bg-warning">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, error, magni, sapiente harum voluptatum facere eligendi totam similique expedita dolorem eius porro nesciunt! Quaerat, sit, laborum eligendi id tenetur voluptates!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam eveniet quisquam a aspernatur. Magnam, laudantium, laborum, quae mollitia inventore delectus vitae assumenda consequatur ipsam dolores iste atque eum at doloremque.</p>
+                <p>Eligendi ipsam quibusdam assumenda iste ea necessitatibus asperiores quis provident rem nulla. Sunt, voluptatibus, unde labore recusandae rem dolorum quae animi numquam natus iure provident ratione soluta laborum. Id, repellendus.</p>
+                <p>Totam, placeat, laborum reprehenderit cupiditate consequatur distinctio quod quae libero officia perspiciatis. Pariatur, earum, modi, culpa totam rem perspiciatis consequuntur et repellendus consequatur ipsum similique illum eligendi consectetur magnam eius.</p>
+                <div class="ui horizontal divider"><i class="circle teal blank icon"></i></div>
+                <p>qLorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, repellat, ea, adipisci, fugit praesentium obcaecati tempora consectetur ullam nobis veritatis quasi harum id odio eveniet porro hic magnam voluptatibus rem!</p>
+                <p>Perspiciatis neque sed dignissimos alias libero excepturi soluta aliquam. Quibusdam, maxime, odio temporibus hic adipisci iusto eaque dolore consectetur impedit dolores odit nam nihil ducimus nulla ut beatae magnam ipsum.</p>
+            </div>
+            <h2 class="mid">Our goals..</h2>
+            <h3 class="text-primary">Lorem ipsum dolor sit amet,<small> consectetur adipisicing elit. Error, hic, distinctio optio veritatis pariatur consectetur nemo porro vel dolor sapiente quis maxime. Consectetur sit fugiat necessitatibus officia laborum iure quidem.</small></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, nesciunt, vero at amet nisi perspiciatis dolor accusantium quibusdam sunt velit est omnis quidem culpa sapiente atque magnam impedit incidunt dolorum!</p>
+            <p>Corrupti, non, eos corporis quidem ratione dolorem aliquam neque temporibus culpa voluptate suscipit reiciendis. Sint, dicta, sapiente officiis neque nostrum impedit pariatur maiores accusamus aspernatur itaque at repellat voluptatum beatae.</p>
+            <p>Asperiores, quam, error, harum voluptate minima quos quaerat tempore cum sapiente deleniti necessitatibus alias aliquam dolor nobis expedita inventore ratione recusandae unde quia voluptates quibusdam ducimus quisquam commodi qui vero.</p>
+            <p>Omnis, excepturi dolores fugiat accusantium velit quibusdam natus iure assumenda sint dolore corrupti officia non voluptatum dignissimos neque animi impedit expedita culpa ex sunt reprehenderit quas ea veniam voluptas vel.</p>
+            <p>Veniam, facere, earum voluptas nemo debitis ipsa ullam sequi rerum eos sed iure quisquam quaerat accusamus maxime magni deserunt impedit perspiciatis amet excepturi quos veritatis sint nulla nisi fugit repudiandae!</p>
+        </div>
+    </div>
+    <footer class="footer">
+        <div id="footer-2nd-bg">
+            <!--   =================================== F O T E R ==================================== -->
+            <div class="container-fluid">
+                <div class="row" id="footer-row1">
+                    <div class="col-xs-12 col-md-12">
+                        <h3 class="text-left">
+                            <b>NEWSLETTER</b>&nbsp;
+                            <a href="#" data-content="We will let you know about our best deals!" class="btn btn-success">
+                                <span class="glyphicon glyphicon-envelope"></span>SUBSCRIBE</a>
+                            <!-- <center>
+                                <div class="btn-group">
+                                    <a href="#" class="btn btn-default" onclick="$('#header').animatescroll({scrollSpeed:3100,easing:'easeOutBounce'});">
+                                        <span class="glyphicon glyphicon-arrow-up"></span>Go to start</a>
+                                    <a href="#" class="btn btn-default" onclick="$('#categories').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});">
+                                        <span class="glyphicon glyphicon-arrow-up"></span>Go to categories</a>
+                                    <a href="#" class="btn btn-default" onclick="$('.footer').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">
+                                        <span class="glyphicon glyphicon-arrow-up"></span>Go to footer</a>
+                                </div>
+                            </center> -->
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row" id="footer-row2">
+                    <div class="col-xs-6 col-md-4">
+                        <h3 class="text-center"><i class="Info Letter teal icon"></i>  <b><u>CONTACT US</u></b>
+                        </h3>
+                        <ul class="list-unstyled footer-list">
+                            <li><a href="#" class="text-left"><i class="circular mobile teal icon"></i> Phone: +330.444.984.222</a>
+                            </li>
+                            <li><a href="#" class="text-left"><i class="circular mail outline teal icon"></i> office@sportshoes.com</a>
+                            </li>
+                            <li><a href="#" class="text-left"><i class="circular home teal icon"></i> Adress: 22th,Shoe Street</a>
+                            </li>
+                            <!--attach gmaps here-->
+                            <li><a href="#" class="text-left">Country, City/State</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xs-6 col-md-4">
+                        <h3 class="text-center"><i class="Open Folder Outline teal icon"></i>  <b><u>README</u></b>
+                        </h3>
+                        <ul class="list-unstyled footer-list">
+                            <li><a href="#"><i class="circular double angle right teal icon"></i> Privacy Policy</a>
+                            </li>
+                            <li><a href="#"><i class="circular double angle right teal icon"></i> Terms & conditions</a>
+                            </li>
+                            <li><a href="#"><i class="circular double angle right teal icon"></i> Returns</a>
+                            </li>
+                            <li><a href="#"><i class="circular double angle right teal icon"></i> Order History</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xs-12 col-md-4">
+                        <h3 class="text-center"><i class="Payment teal icon"></i>  <b><u>PAYMENT</u></b>
+                        </h3>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <img src="img/maestro.png" alt="card1" class="img-responsive center-block" />
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="img/master.png" alt="card2" class="img-responsive center-block">
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="img/pay-pal.png" alt="card3" class="img-responsive center-block">
+                            </div>
+                            <!-- <div class="row"> -->
+                            <div class="col-sm-4">
+                                <img src="img/visa.png" alt="" class="img-responsive center-block">
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="img/visa_electron.png" alt="" class="img-responsive center-block">
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="img/maestro.png" alt="" class="img-responsive center-block">
+                            </div>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-12">
+                        <div style="padding:5px;">
+                            <h4><a href="#" class="navbar-text"><i class="inverted circular sign icon"></i> COPYRIGHT </a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- SITE NAVIGATORS -->
+    <div class="ui vertical icon buttons sticky">
+        <a href="#" class="circular ui icon button black" onclick="$('#header').animatescroll({scrollSpeed:3100,easing:'easeOutBounce'});">
+            <i class="angle up icon"></i></a>
+        <a href="#" class="circular ui icon button teal" onclick="$('#categories').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});">
+            <i class="angle left icon"></i></a>
+        <a href="#" class="circular ui icon button black" onclick="$('.footer').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">
+            <i class="angle down icon"></i></a>
+    </div>
+    <!-- site navigators end -->                        
+</div>
+    </div>
+    </div>
+    <!--end content-->
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/semantic.min.js"></script>
+    <script type="text/javascript" src="js/modernizr.js"></script>
+    <script type='application/javascript' src='js/fastclick.js'></script>
+    <script src="js/core.js" type="text/javascript" charset="utf-8" async defer></script>
+    <script type="text/javascript" src="js/animatescroll.min.js"></script>
+</body>
+
+</html>

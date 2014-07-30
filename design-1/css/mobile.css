@@ -1,0 +1,17 @@
+@media (max-width: 1367px){
+	body{
+		padding-top:70px;
+		background:rgba(185,185,185,0.5);
+	}
+	.mid{
+		font-size: 4em!important;
+		margin-top: 35%;
+	}
+	.mid:hover{
+		font-size: 4em;
+		margin-top:40%;
+	}
+	.cat, .mid{
+		letter-spacing: normal!important;
+	}
+}

@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Karla);
+body{
+	background:url('../img/bgnoise_lg.png')repeat fixed 0 0;
+}
+p, h1, h2, h3, h4, h5{
+	font-family: 'Karla', sans-serif;
+	background-blend-mode: screen;
+	color:#333;
+}
+#header{
+	background-color:#e1e1e1;
+	padding:10px 5px;
+}
+.head{
+	box-shadow:inset 0px 1px 5px #000;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #222;
+}
+p.mid{
+	margin-top:20px;
+}
+#picture_column{
+	margin-right: -25px;
+}
+#forms.well{
+	background-color: #2d425c;
+	background-blend-mode:multiply;
+	border:0;
+}
+#low{
+	background-color: #2d425c;
+}
+#major.well{
+	background-color: #f2f2f2
+}
+#forms h4{
+	color:#fff;
+	margin-bottom: 15px;
+}
+#from-us.well{
+	border:1px solid #999;
+}
+.separator{
+	width: 100%;
+	height: 1px;
+	background-color:#222;
+	border-bottom:1px solid #ccc;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+.border{
+	border:2px solid #ccc;
+}
+#pic1, #pic2{
+	position: absolute;
+	top: -40px;
+	right: 45%;
+	border-radius: 50%;
+	border:2px inset #ccc;
+}

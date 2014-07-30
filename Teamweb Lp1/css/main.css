@@ -1,0 +1,80 @@
+@import url(http://fonts.googleapis.com/css?family=Hammersmith+One);
+body{
+	/*background:url('../img/concrete_wall_2.png')repeat fixed 0 0 transparent;
+	background-color: #e1e1e1;*/
+	background-color:#fff;
+	background-blend-mode:multiply;
+}
+p{
+	font-family: 'Hammersmith One', sans-serif;
+	color: #222;
+}
+ul#block-list li{
+	border-radius: 6px;
+}
+ul#block-list li img{
+	margin:10px 0px;
+}
+ul#block-list li:nth-child(1), ul#block-list li:nth-child(3){
+	color:teal;
+	background:#ccc;
+	transition: .8s ease;
+	background-blend-mode:multiply;
+}
+ul#block-list li:nth-child(2), ul#block-list li:nth-child(4){
+	color:#225082;
+	background-blend-mode:multiply;
+	background-color:#fff;
+	transition:.8s ease;
+}
+ul#block-list li:nth-child(1):hover, ul#block-list li:nth-child(3):hover{
+	background-color:#225082;
+	color:#fff!important;
+}
+ul#block-list li:nth-child(2):hover, ul#block-list li:nth-child(4):hover{
+	background:#777;
+	color:#fff!important;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Hammersmith One', sans-serif;
+	color:#fefefe;
+	/*text-shadow:1px -1px 1px #225082;*/
+	transition: .8s ease;
+}
+h1:hover, h2:hover, h3:hover, h4:hover{
+	color:#1F8398;
+	background-blend-mode:multiply;
+	border-radius:3px;
+}
+.top{
+	/*margin-top: 5%;*/
+	padding-top: 4em;
+	padding-bottom: 10em;
+}
+#content{
+	background:url('../img/topbg.jpg')no-repeat scroll 0 0 transparent;
+	background-blend-mode:multiply;
+	background-size:100% 100%;
+	background-color: #777;
+	height: 800px;
+}
+.separator{
+	height: 2px;
+	background-color: #888;
+	width: 100%;
+	border:0;
+	margin:15px 0px;
+}
+footer{
+	background:url('../img/noshoesfull.jpg')no-repeat scroll 0 0 transparent;
+	background-blend-mode:multiply;
+	background-size: cover;
+	background-color: #777;
+	height: 500px;
+}
+#bottom{
+	margin-top:5%;
+}
+.inline-list{
+	margin-left: 3.625rem;
+}
